@@ -5,7 +5,7 @@ The statistical programming language R is quickly becoming one of the standard t
 In this repository, you'll find both the data we'll be working with and the full R script for our in-class exercises for your review.
 
 ## Getting started
-Download and unzip this file, which contains the notes and data we'll be using in today's workshop. You might want to move the unzipped file to your Desktop or some other location that's easy for you to find.
+[Download and unzip this file](https://github.com/mtdukes/data-journalism-with-r/archive/main.zip), which contains the notes and data we'll be using in today's workshop. You might want to move the unzipped file to your Desktop or some other location that's easy for you to find.
 
 After starting RStudio, click "File" > "New File" > "R Script" in the menu to start a new script. Then go ahead and "Save As..." to give it a name. You should get in the habit of saving your work often.
 
