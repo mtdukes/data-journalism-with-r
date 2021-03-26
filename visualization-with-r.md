@@ -4,7 +4,7 @@
 In this repository, you'll find both the data we'll be working with and the full R script for our in-class exercises for your review.
 
 ## Getting started
-[Download and unzip this file](https://github.com/mtdukes/data-journalism-with-r/archive/main.zip), which contains the notes and data we'll be using in today's workshop. You might want to move the unzipped file to your Desktop or some other location that's easy for you to find.
+[Download and unzip this file](https://github.com/mtdukes/data-journalism-with-r/archive/main.zip), which contains the notes and data we'll be using in today's workshop. You might want to move the unzipped file to your Desktop or some other location that's easy for you to find. The full, detailed code for this lesson [is available here](https://github.com/mtdukes/data-journalism-with-r/blob/main/data/workshop20210326.R).
 
 After starting RStudio, click "File" > "New File" > "R Script" in the menu to start a new script. Then go ahead and "Save As..." to give it a name. You should get in the habit of saving your work often.
 
@@ -44,12 +44,15 @@ library(stringr)
 ```
 
 ---
-***Note:** If you get an error about R not being able to locate the package, you may have to install it if you didn't do this in our last workshop:*
+***Note:** If you get an error about R not being able to locate a package, you may have to install it if you didn't do this in our last workshop:*
 
 ```R
 #install the tidyverse package
 install.packages("tidyverse")
 install.packages("knitr")
+install.packages("zoo")
+install.packages("geofacet")
+install.packages("stringr")
 ```
 ---
 

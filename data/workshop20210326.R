@@ -6,8 +6,8 @@
 setwd("~/Desktop/data-journalism-with-r/data")
 
 #install other packages
-install.packages('zoo')
-install.packages('geofacet')
+#install.packages('zoo')
+#install.packages('geofacet')
 
 #load the libraries we'll be using
 library(tidyverse)
@@ -134,7 +134,7 @@ durham_covid %>%
 
 # Small multiples ---------------------------------------------------------
 
-#build out a similar dataset for North Carolina
+#build out a similiar dataset for North Carolina
 nc_covid <- covid_time_series %>%
   filter(Province_State == 'North Carolina') %>%
   filter(Admin2 != 'Unassigned') %>% 
